@@ -18,3 +18,4 @@
     - pull - to fetch the latest from git - git pull
     - change the branch - git checkout [branch]
     - to update the changes from git - git fetch
+    - to create the branch - git checkout -b [branch] 
