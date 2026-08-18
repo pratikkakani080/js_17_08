@@ -9,3 +9,6 @@
     - to staged the changes - git add .
     - to write the commit - git commit -m "message"
     - push - to push the code on git - git push
+    - to update configs - git config user.name [name]
+    - to update configs - git config user.email [email]
+
