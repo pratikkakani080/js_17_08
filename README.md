@@ -19,3 +19,18 @@
     - change the branch - git checkout [branch]
     - to update the changes from git - git fetch
     - to create the branch - git checkout -b [branch] 
+
+# DataTypes
+
+
+# Homework
+    - Prepare a complex data structure
+        - Books
+        - Countries
+        - Cities
+        - States
+        - Stocks
+        - Cars
+        - Academy students
+        - Products
+        - Movies
