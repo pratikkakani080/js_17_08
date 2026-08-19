@@ -2,7 +2,7 @@
 
 // let
     // let can be reassigned but cannot be redeclared
-    let firstName = 'Pratik' // = is an assignment operator
+    export let firstName = 'Pratik' // = is an assignment operator
     firstName = 'John'
     console.log(firstName);
 
@@ -15,3 +15,13 @@
 // const 
     // const cannot be reassigned nor redeclared
     const c = 'one'
+
+// UPPERCASE
+// lowercase
+// camelCase
+// snake_case
+// UPPER_SNAKE_CASE
+
+
+// Local variable - variable defined within the fil scope
+// Global variable - exported variable
