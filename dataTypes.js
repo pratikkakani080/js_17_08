@@ -81,22 +81,52 @@
         //     {name: 'Savan', age: 25},
         //     {name: 'Prashant', age: 23},
         // ]);
+        const newArr = [4,6,7,7,5,4,5,[6,3,23,[4,5,[6,8,76,5,4,3,23],4],5,6,8],9,7,5,3]
+        const newArr2 = [55,6,7,7,5,4,5,6,3,23,4,5,6,8,76]
+        console.log(newArr2);
+        // console.log(newArr.length);
+        // console.log(newArr.toString());
+        // console.log(newArr.at(4));
+        // console.log(newArr[4]);
+        // console.log(newArr.join(' * '));
+        // console.log(newArr.pop());
+        // console.log(newArr.push(55));
+        // console.log(newArr.shift());
+        // console.log(newArr.unshift(456));
+        // console.log(newArr.concat(newArr2));
+        // console.log(newArr.flat(3));
+        // console.log(newArr2.splice(4, 1, 555));
+        // console.log(newArr2.toSpliced(4, 1, 555));
+        // console.log(newArr2.slice(5, 9));
+
+        // console.log(newArr2.indexOf(6));
+        // console.log(newArr2.lastIndexOf(6));
+        // console.log(newArr2.includes(6000));
+
+
+        // console.log(newArr2.find(() => {}));
+        console.log(newArr2);
+        
         
     // Function
         // define
+        // Arrow syntax
+            const anotherDataHandler = () => {
+                console.log('testing callback function');
+                return 'sfoidsfoisdfsodifsjdfoi'
+            }
+            // anotherDataHandler()
+
+            const var1 = 'new'
+
             // normal function
-                function dataHandler() {
-                    console.log('testing function');
+                function dataHandler(var1, var2, var3, var4, var5, var6, var7) {
+                    console.log('testing function', var7());
                     
                 }
-                // dataHandler()
+                // dataHandler('test', 100, true, false, ['test'], {key: 'value'})
+                // dataHandler('new', 200, true, false, ['test'], {key: 'value'}, anotherDataHandler)
                 
-            // Arrow syntax
-                const anotherDataHandler = () => {
-                    console.log('testing function');
-
-                }
-                // anotherDataHandler()
 
             // self invoked function
                 // (function () {
@@ -105,6 +135,7 @@
                 // })()
 
             // Callback function
+                // dataHandler('new', 200, true, ['test'], {key: 'value'}, () => {})
 
 
             // Async function
