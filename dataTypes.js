@@ -104,8 +104,31 @@
         // console.log(newArr2.includes(6000));
 
 
-        // console.log(newArr2.find(() => {}));
+        // console.log(newArr2.find((ved, index, arr) => {
+        //     console.log(ved, index, arr);
+        //     return ved > 55
+        // }));
+        // console.log(newArr2.find((element, index) => element === 4));
+        // console.log(newArr2.findIndex((element, index) => element === 4));
+        // console.log(newArr2.findLast((element, index) => element === 4));
+        // console.log(newArr2.findLastIndex((element, index) => element === 4));
+
+        // const sortedArr = newArr2.sort((a, b) => a < b ? 1 : -1)
+        // const sortedArr = newArr2.toSorted((a, b) => a < b ? 1 : -1)
+        // const fruits = ["Banana", "Orange", "Apple", "Mango", "Berry"];
+        // const cars = [
+        //     {type:"Volvo", year:2016},
+        //     {type:"Saab", year:2001},
+        //     {type:"BMW", year:2010}
+        // ];
+
+        // console.log(newArr2.reverse());
+        // console.log(newArr2.toReversed());
+        // console.log(cars.sort((a, b) => a.year > b.year ? 1 : -1));
         console.log(newArr2);
+
+        console.log(Math.max(3, 5,3, 2,434 ,45645,63 ,23,4243,243,3,64));
+        
         
         
     // Function
