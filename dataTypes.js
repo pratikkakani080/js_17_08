@@ -82,8 +82,8 @@
         //     {name: 'Prashant', age: 23},
         // ]);
         const newArr = [4,6,7,7,5,4,5,[6,3,23,[4,5,[6,8,76,5,4,3,23],4],5,6,8],9,7,5,3]
-        const newArr2 = [55,6,7,7,5,4,5,6,3,23,4,5,6,8,76]
-        console.log(newArr2);
+        const newArr2 = [55,6,7,5,4,5,6,3,23,4,5,6,8,76,500]
+        // console.log(newArr2);
         // console.log(newArr.length);
         // console.log(newArr.toString());
         // console.log(newArr.at(4));
@@ -125,9 +125,28 @@
         // console.log(newArr2.reverse());
         // console.log(newArr2.toReversed());
         // console.log(cars.sort((a, b) => a.year > b.year ? 1 : -1));
-        console.log(newArr2);
 
-        console.log(Math.max(3, 5,3, 2,434 ,45645,63 ,23,4243,243,3,64));
+        // Iteration methods
+        // let arr = []
+        // newArr2.forEach((element) => {
+        //     arr.push(element * 2)
+        // })
+
+        // const newArrrrr = newArr2.map((e, i, a) => e > 50 && e < 100)
+
+        // const filteredArr = newArr2.filter((e, i, a) => e > 50 && e < 100)
+        // console.log(newArr2.every((e, i, a) => e > 1));
+        // console.log(newArr2.some((e, i, a) => e > 500));
+
+        // const reducedValue = newArr2.reduce((accumulator, currentValue) => {
+        //     console.log(accumulator, currentValue)
+        //     return accumulator + currentValue
+        // })
+        
+
+        // console.log(newArr2, reducedValue);
+
+        // console.log(Math.max(3, 5,3, 2,434 ,45645,63 ,23,4243,243,3,64));
         
         
         
