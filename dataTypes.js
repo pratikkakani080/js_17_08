@@ -66,12 +66,19 @@
         // define - { key: value, key: value }
         // console.log('User', { name: 'John', age: 30 });
         // console.log('Laptop', { screen: '13 inch', ram: '16 gb', ssd: 512 });
-        const base = {id: 33443523432, name: 'stella'}
+        const base = {id: 33443523432, name: 'stella', address: { city: 'surat' }}
         const objj = Object.assign(base, { name: 'john'}, {age: 30, hobby: ['biking', 'reading']})
         // console.log(objj)
         // console.log(Object.keys(objj))
         // console.log(Object.values(objj))
         // console.log(Object.entries(objj))
+        // console.log(base.adress?.city);
+        // console.log(base['age']);
+
+        // destructuring of object
+          const { id, name, address }  =  base
+        console.log(id, name, address);
+        
         
     // Array
         // define - []
@@ -83,6 +90,12 @@
         // ]);
         const newArr = [4,6,7,7,5,4,5,[6,3,23,[4,5,[6,8,76,5,4,3,23],4],5,6,8],9,7,5,3]
         const newArr2 = [55,6,7,5,4,5,6,3,23,4,5,6,8,76,500]
+
+        // destructuring of array
+           const [val1, val2, ...rest] = newArr2
+           console.log(val1, val2, rest);
+           
+
         // console.log(newArr2);
         // console.log(newArr.length);
         // console.log(newArr.toString());
